@@ -2,7 +2,7 @@
 FROM adoptopenjdk/openjdk8
 
 # Set the working directory inside the container
-WORKDIR /app.
+WORKDIR /app
 
 # Copy the JAR file from the target directory of your Maven build to the /app directory in the container
 COPY target/helloworld-1.1.jar /app/helloworld-1.1.jar
